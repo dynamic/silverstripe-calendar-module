@@ -67,7 +67,8 @@
             "composer/installers": true,
             "silverstripe/vendor-plugin": true,
             "silverstripe/recipe-plugin": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         },
         "process-timeout": 600
     },
