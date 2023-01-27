@@ -49,6 +49,15 @@
             "url": "https://github.com/vyg/silverstripe-sluggable.git"
         }
     ],
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true,
+            "silverstripe/recipe-plugin": true,
+            "phpstan/extension-installer": true
+        },
+        "process-timeout": 600
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
@@ -63,12 +72,6 @@
         ]
     },
     "extra": {
-        "allow-plugins": {
-            "composer/installers": true,
-            "silverstripe/vendor-plugin": true,
-            "silverstripe/recipe-plugin": true,
-            "phpstan/extension-installer": true
-        },
         "expose": [
             "images",
             "css",
