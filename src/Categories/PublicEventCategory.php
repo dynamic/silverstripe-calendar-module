@@ -56,7 +56,8 @@ class PublicEventCategory extends EventCategory
      * @param Member $member
      * @return boolean
      */
-    public function canEdit($member = null)    {
+    public function canEdit($member = null)
+    {
         return $this->canManage($member);
     }
 

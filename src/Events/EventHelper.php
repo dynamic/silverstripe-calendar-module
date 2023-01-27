@@ -41,7 +41,7 @@ class EventHelper
     {
         $str = '';
 
-        if($startObj->value && $endObj->value){
+        if ($startObj->value && $endObj->value) {
             //Checking if end date is set
             $endValue = $endObj->getValue();
             $endDateIsset = isset($endValue);
@@ -144,7 +144,7 @@ class EventHelper
     {
         $str = '';
 
-        if($startDBDateTime->value && $endDBDateTime->value){
+        if ($startDBDateTime->value && $endDBDateTime->value) {
             $startTime = \strtotime($startDBDateTime->value);
             $endTime = \strtotime($endDBDateTime->value);
 

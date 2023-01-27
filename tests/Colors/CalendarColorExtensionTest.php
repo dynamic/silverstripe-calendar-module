@@ -68,8 +68,9 @@ class CalendarColorExtensionTest extends SapphireTest
                 'Title',
                 'Color',
                 'Groups',
-            ],
-                $names)
+                ],
+                $names
+            )
         );
     }
 }
